@@ -1,0 +1,185 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.2 160152  9432 ?        Ss   18:55   0:01 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    18:55   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   18:55   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   18:55   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    18:55   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    18:55   0:00 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    18:55   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    18:55   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    18:55   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    18:55   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    18:55   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    18:55   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    18:55   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    18:55   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   18:55   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    18:55   0:00 [kdevtmpfs]
+root        20  0.0  0.0      0     0 ?        I<   18:55   0:00 [netns]
+root        21  0.0  0.0      0     0 ?        S    18:55   0:00 [rcu_tasks_kthre]
+root        22  0.0  0.0      0     0 ?        S    18:55   0:00 [kauditd]
+root        24  0.0  0.0      0     0 ?        S    18:55   0:00 [khungtaskd]
+root        25  0.0  0.0      0     0 ?        S    18:55   0:00 [oom_reaper]
+root        26  0.0  0.0      0     0 ?        I<   18:55   0:00 [writeback]
+root        27  0.0  0.0      0     0 ?        S    18:55   0:00 [kcompactd0]
+root        28  0.0  0.0      0     0 ?        SN   18:55   0:00 [ksmd]
+root        29  0.0  0.0      0     0 ?        SN   18:55   0:00 [khugepaged]
+root        30  0.0  0.0      0     0 ?        I<   18:55   0:00 [crypto]
+root        31  0.0  0.0      0     0 ?        I<   18:55   0:00 [kintegrityd]
+root        32  0.0  0.0      0     0 ?        I<   18:55   0:00 [kblockd]
+root        33  0.0  0.0      0     0 ?        I<   18:55   0:00 [ata_sff]
+root        34  0.0  0.0      0     0 ?        I<   18:55   0:00 [md]
+root        35  0.0  0.0      0     0 ?        I<   18:55   0:00 [edac-poller]
+root        36  0.0  0.0      0     0 ?        I<   18:55   0:00 [devfreq_wq]
+root        37  0.0  0.0      0     0 ?        I<   18:55   0:00 [watchdogd]
+root        40  0.0  0.0      0     0 ?        S    18:55   0:00 [kswapd0]
+root        41  0.0  0.0      0     0 ?        I<   18:55   0:00 [kworker/u5:0]
+root        42  0.0  0.0      0     0 ?        S    18:55   0:00 [ecryptfs-kthrea]
+root        46  0.0  0.0      0     0 ?        I    18:55   0:01 [kworker/1:1]
+root        85  0.0  0.0      0     0 ?        I<   18:55   0:00 [kthrotld]
+root        86  0.0  0.0      0     0 ?        I<   18:55   0:00 [acpi_thermal_pm]
+root        90  0.0  0.0      0     0 ?        I<   18:55   0:00 [ipv6_addrconf]
+root        99  0.0  0.0      0     0 ?        I<   18:55   0:00 [kstrp]
+root       116  0.0  0.0      0     0 ?        I<   18:55   0:00 [charger_manager]
+root       154  0.0  0.0      0     0 ?        I    18:55   0:00 [kworker/1:2]
+root       155  0.0  0.0      0     0 ?        I    18:55   0:00 [kworker/0:2]
+root       156  0.0  0.0      0     0 ?        S    18:55   0:00 [scsi_eh_0]
+root       157  0.0  0.0      0     0 ?        I<   18:55   0:00 [scsi_tmf_0]
+root       158  0.0  0.0      0     0 ?        S    18:55   0:00 [scsi_eh_1]
+root       159  0.0  0.0      0     0 ?        I<   18:55   0:00 [scsi_tmf_1]
+root       164  0.0  0.0      0     0 ?        I<   18:55   0:00 [kworker/1:1H]
+root       167  0.0  0.0      0     0 ?        I<   18:55   0:00 [kworker/0:1H]
+root       273  0.0  0.0      0     0 ?        S    18:55   0:00 [jbd2/sda1-8]
+root       274  0.0  0.0      0     0 ?        I<   18:55   0:00 [ext4-rsv-conver]
+root       320  0.0  0.5 103160 23236 ?        S<s  18:55   0:00 /lib/systemd/systemd-journald
+root       332  0.0  0.0  97708  1664 ?        Ss   18:55   0:00 /sbin/lvmetad -f
+root       333  0.0  0.1  47232  5580 ?        Ss   18:55   0:00 /lib/systemd/systemd-udevd
+root       418  0.0  0.0      0     0 ?        I<   18:55   0:00 [iprt-VBoxWQueue]
+root       457  0.0  0.0      0     0 ?        I<   18:55   0:00 [ttm_swap]
+systemd+   458  0.0  0.1  70772  5216 ?        Ss   18:55   0:00 /lib/systemd/systemd-resolved
+message+   548  0.0  0.1  51428  5612 ?        Ss   18:55   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       556  0.0  0.1  45232  5152 ?        Ss   18:55   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       557  0.0  0.4 560336 17088 ?        Ssl  18:55   0:00 /usr/sbin/NetworkManager --no-daemon
+root       563  0.0  0.1  70616  6028 ?        Ss   18:55   0:00 /lib/systemd/systemd-logind
+root       566  0.0  0.0 110416  2064 ?        Ssl  18:55   0:00 /usr/sbin/irqbalance --foreground
+syslog     568  0.0  0.1 263036  4212 ?        Ssl  18:55   0:00 /usr/sbin/rsyslogd -n
+avahi      570  0.0  0.0  47256  3212 ?        Ss   18:55   0:00 avahi-daemon: running [LoganVM.local]
+root       572  0.0  0.2 502936 11072 ?        Ssl  18:55   0:00 /usr/lib/udisks2/udisksd
+root       585  0.0  0.0  32540  3116 ?        Ss   18:55   0:00 /usr/sbin/cron -f
+root       586  0.0  0.0   4552   780 ?        Ss   18:55   0:00 /usr/sbin/acpid
+root       588  0.0  0.2 434332  9628 ?        Ssl  18:55   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root       591  0.0  0.1 289172  7256 ?        Ssl  18:55   0:00 /usr/lib/accountsservice/accounts-daemon
+root       592  0.0  0.4 171704 17140 ?        Ssl  18:55   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+kernoops   619  0.0  0.0  56944   416 ?        Ss   18:55   0:00 /usr/sbin/kerneloops --test
+kernoops   621  0.0  0.0  56944   416 ?        Ss   18:55   0:00 /usr/sbin/kerneloops
+avahi      643  0.0  0.0  47076   340 ?        S    18:55   0:00 avahi-daemon: chroot helper
+root       652  0.0  0.2 293288  8956 ?        Ssl  18:55   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       697  0.0  0.0 249532  2264 ?        Sl   18:55   0:01 /usr/sbin/VBoxService
+root       775  0.0  0.1 364232  6720 ?        Ssl  18:56   0:00 /usr/sbin/lightdm
+root       777  0.0  0.1  25992  6284 ?        S    18:56   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-6b7d90a9-f174-3da6-aa4e-34d7bb5dfa68-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+root       895  0.3  2.6 639836 108444 tty7    Rsl+ 18:56   0:39 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       897  0.0  0.0  17400  1916 tty1     Ss+  18:56   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root       965  0.0  0.1 266804  7640 ?        Sl   18:56   0:00 lightdm --session-child 12 15
+lsobczyk   975  0.0  0.1  76884  7956 ?        Ss   18:56   0:00 /lib/systemd/systemd --user
+lsobczyk   983  0.0  0.0 132612  2992 ?        S    18:56   0:00 (sd-pam)
+lsobczyk  1016  0.0  1.2 835744 51528 ?        Ssl  18:56   0:00 cinnamon-session --session cinnamon
+lsobczyk  1031  0.0  0.1  50792  5056 ?        Ss   18:56   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lsobczyk  1084  0.0  0.0  53176   320 ?        S    18:56   0:00 /usr/bin/VBoxClient --clipboard
+lsobczyk  1085  0.0  0.1 121564  4548 ?        Sl   18:56   0:00 /usr/bin/VBoxClient --clipboard
+lsobczyk  1094  0.0  0.0  53176   320 ?        S    18:56   0:00 /usr/bin/VBoxClient --display
+lsobczyk  1095  0.0  0.0  53312  3484 ?        S    18:56   0:00 /usr/bin/VBoxClient --display
+lsobczyk  1099  0.0  0.0  53176   328 ?        S    18:56   0:00 /usr/bin/VBoxClient --seamless
+lsobczyk  1100  0.0  0.0 119360  2184 ?        Sl   18:56   0:00 /usr/bin/VBoxClient --seamless
+lsobczyk  1108  0.0  0.0  53176   328 ?        S    18:56   0:00 /usr/bin/VBoxClient --draganddrop
+lsobczyk  1109  0.0  0.0 119876  2184 ?        Sl   18:56   0:09 /usr/bin/VBoxClient --draganddrop
+lsobczyk  1119  0.0  0.0  11304   320 ?        Ss   18:56   0:00 /usr/bin/ssh-agent /usr/bin/im-launch cinnamon-session-cinnamon
+lsobczyk  1133  0.0  0.1 349420  6296 ?        Ssl  18:56   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+lsobczyk  1138  0.0  0.1  50188  4304 ?        S    18:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+lsobczyk  1140  0.0  0.1 220780  6840 ?        Sl   18:56   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+lsobczyk  1145  0.0  1.2 678208 51468 ?        Sl   18:56   0:00 cinnamon-screensaver
+lsobczyk  1151  0.0  0.1 286288  7156 ?        Ssl  18:56   0:00 /usr/lib/gvfs/gvfsd
+lsobczyk  1156  0.0  0.1 416116  5320 ?        Sl   18:56   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+lsobczyk  1589  0.0  0.1 282808  7420 ?        Sl   18:56   0:00 /usr/bin/gnome-keyring-daemon --start --components=ssh
+lsobczyk  1621  0.0  0.4 396940 19064 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-keyboard
+lsobczyk  1625  0.0  0.4 544384 19008 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-orientation
+lsobczyk  1629  0.0  0.5 840484 22384 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-sound
+lsobczyk  1635  0.0  0.4 394528 19068 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-screensaver-proxy
+lsobczyk  1637  0.0  0.5 445404 22200 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-print-notifications
+lsobczyk  1643  0.0  0.5 779636 21804 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-media-keys
+lsobczyk  1647  0.0  0.4 396972 18940 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-mouse
+lsobczyk  1650  0.0  0.4 396956 19584 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-settings
+lsobczyk  1651  0.0  0.5 398036 20432 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xsettings
+lsobczyk  1652  0.0  0.5 548912 20220 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-automount
+lsobczyk  1658  0.0  0.4 320776 19072 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-cursor
+lsobczyk  1666  0.0  0.4 1333612 17636 ?       S<l  18:56   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1667  0.0  0.0 183508  3064 ?        SNsl 18:56   0:00 /usr/lib/rtkit/rtkit-daemon
+lsobczyk  1670  0.0  0.5 483740 20252 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xrandr
+lsobczyk  1671  0.0  0.6 652612 25868 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-power
+lsobczyk  1676  0.0  0.4 396956 19076 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-housekeeping
+lsobczyk  1677  0.0  0.4 320812 18972 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-clipboard
+lsobczyk  1678  0.0  0.6 480816 25808 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-background
+root      1682  0.0  0.2 316544  8640 ?        Ssl  18:56   0:00 /usr/lib/upower/upowerd
+lsobczyk  1696  0.0  0.5 574952 21300 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-color
+lsobczyk  1697  0.0  0.5 448040 22652 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-keyboard
+lsobczyk  1700  0.0  0.5 380144 21488 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-wacom
+lsobczyk  1718  0.0  0.1 187992  5160 ?        Sl   18:56   0:00 /usr/lib/dconf/dconf-service
+lsobczyk  1723  0.0  0.3 503088 12472 ?        Sl   18:56   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-printer
+colord    1732  0.0  0.3 319428 14080 ?        Ssl  18:56   0:00 /usr/lib/colord/colord
+lsobczyk  1742  0.0  0.2 374684  8504 ?        Ssl  18:56   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+lsobczyk  1759  0.0  0.1 270156  6120 ?        Ssl  18:56   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+lsobczyk  1767  0.0  0.1 282944  6772 ?        Ssl  18:56   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+lsobczyk  1773  0.0  0.1 268416  6096 ?        Ssl  18:56   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+lsobczyk  1774  0.0  0.7 187400 29420 ?        S    18:56   0:00 cinnamon-launcher
+lsobczyk  1778  0.0  0.8 778452 33152 ?        Sl   18:56   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+lsobczyk  1779  6.0  4.8 3065892 196816 ?      Sl   18:56  10:20 cinnamon --replace
+lsobczyk  1786  0.0  0.1 297880  7848 ?        Sl   18:56   0:00 /usr/lib/gnome-online-accounts/goa-identity-service
+lsobczyk  1791  0.0  0.1 373136  7924 ?        Ssl  18:56   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+lsobczyk  1810  0.0  0.8 429524 32356 ?        Sl   18:56   0:00 blueberry-obex-agent
+lsobczyk  1813  0.0  0.4 322760 18340 ?        Sl   18:56   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+lsobczyk  1842  0.0  1.3 816840 53152 ?        Sl   18:56   0:01 nemo-desktop
+lsobczyk  1845  0.0  0.7 672340 31200 ?        Sl   18:56   0:00 nm-applet
+lsobczyk  1846  0.0  0.7 412724 29676 ?        Sl   18:56   0:00 cinnamon-killer-daemon
+lsobczyk  1850  0.0  0.1  82736  6788 ?        Ss   18:56   0:00 /usr/lib/bluetooth/obexd
+lsobczyk  1899  0.0  0.1 362572  7460 ?        Sl   18:56   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+lsobczyk  1924  0.0  0.1 198680  5448 ?        Ssl  18:56   0:00 /usr/lib/gvfs/gvfsd-metadata
+lsobczyk  1927  0.6  1.7 955384 69984 ?        Rl   18:56   1:06 doublecmd
+lsobczyk  1955  0.0  1.5 820664 60816 ?        Sl   18:56   0:00 mintUpdate
+lsobczyk  2068  0.0  0.8 251644 32432 ?        Sl   18:56   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+lsobczyk  2113  0.4  2.2 579236 89100 ?        Sl   18:56   0:41 mintreport-tray
+root      2230  0.0  0.1 101808  8068 ?        Ss   19:00   0:00 /usr/sbin/cupsd -l
+root      2231  0.0  0.2 303664 10936 ?        Ssl  19:00   0:00 /usr/sbin/cups-browsed
+root      2704  0.0  0.3 368136 13888 ?        Ssl  19:06   0:00 /usr/lib/packagekit/packagekitd
+root      4284  0.0  0.0      0     0 ?        I    21:02   0:00 [kworker/0:1]
+root      4296  0.0  0.0      0     0 ?        S    21:02   0:00 [scsi_eh_2]
+root      4297  0.0  0.0      0     0 ?        I<   21:02   0:00 [scsi_tmf_2]
+root      4298  0.0  0.0      0     0 ?        S    21:02   0:00 [usb-storage]
+lsobczyk  4323  0.0  1.5 1221844 61372 ?       Sl   21:02   0:01 nemo /media/lsobczyk/LUKASZ
+lsobczyk  4328  0.0  0.2 464464 10248 ?        Ssl  21:02   0:00 /usr/libexec/xdg-desktop-portal
+lsobczyk  4332  0.0  0.1 498148  5960 ?        Ssl  21:02   0:00 /usr/libexec/xdg-document-portal
+lsobczyk  4335  0.0  0.1 265804  5444 ?        Ssl  21:02   0:00 /usr/libexec/xdg-permission-store
+lsobczyk  4347  0.0  0.0   4628   860 ?        S    21:02   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.14/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+lsobczyk  4348  0.0  0.1 273352  6136 ?        Sl   21:02   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.14/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+lsobczyk  4352  0.0  0.4 540252 18780 ?        Ssl  21:02   0:00 /usr/libexec/xdg-desktop-portal-gtk
+root      4827  0.0  0.0      0     0 ?        I    21:27   0:00 [kworker/u4:1]
+root      4851  0.0  0.0      0     0 ?        I    21:39   0:00 [kworker/u4:3]
+root      4853  0.0  0.0      0     0 ?        I    21:45   0:00 [kworker/u4:0]
+lsobczyk  4860  0.4  0.8 630528 35940 ?        Ssl  21:45   0:00 /usr/lib/gnome-terminal/gnome-terminal-server
+lsobczyk  4867  0.0  0.1  23968  5196 pts/0    Ss   21:45   0:00 bash
+lsobczyk  4881  0.0  0.0  38676  3492 pts/0    R+   21:47   0:00 ps aux
+168 processes.txt
+60:message+   548  0.0  0.1  51428  5612 ?        Ss   18:55   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+72:root       592  0.0  0.4 171704 17140 ?        Ssl  18:55   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+86:lsobczyk  1031  0.0  0.1  50792  5056 ?        Ss   18:56   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+87:lsobczyk  1084  0.0  0.0  53176   320 ?        S    18:56   0:00 /usr/bin/VBoxClient --clipboard
+88:lsobczyk  1085  0.0  0.1 121564  4548 ?        Sl   18:56   0:00 /usr/bin/VBoxClient --clipboard
+89:lsobczyk  1094  0.0  0.0  53176   320 ?        S    18:56   0:00 /usr/bin/VBoxClient --display
+90:lsobczyk  1095  0.0  0.0  53312  3484 ?        S    18:56   0:00 /usr/bin/VBoxClient --display
+91:lsobczyk  1099  0.0  0.0  53176   328 ?        S    18:56   0:00 /usr/bin/VBoxClient --seamless
+92:lsobczyk  1100  0.0  0.0 119360  2184 ?        Sl   18:56   0:00 /usr/bin/VBoxClient --seamless
+93:lsobczyk  1108  0.0  0.0  53176   328 ?        S    18:56   0:00 /usr/bin/VBoxClient --draganddrop
+94:lsobczyk  1109  0.0  0.0 119876  2184 ?        Sl   18:56   0:09 /usr/bin/VBoxClient --draganddrop
+95:lsobczyk  1119  0.0  0.0  11304   320 ?        Ss   18:56   0:00 /usr/bin/ssh-agent /usr/bin/im-launch cinnamon-session-cinnamon
+97:lsobczyk  1138  0.0  0.1  50188  4304 ?        S    18:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+102:lsobczyk  1589  0.0  0.1 282808  7420 ?        Sl   18:56   0:00 /usr/bin/gnome-keyring-daemon --start --components=ssh
+114:lsobczyk  1666  0.0  0.4 1333612 17636 ?       S<l  18:56   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+147:lsobczyk  2068  0.0  0.8 251644 32432 ?        Sl   18:56   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py

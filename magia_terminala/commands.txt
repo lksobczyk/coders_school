@@ -1,0 +1,20 @@
+  113  git init
+  114  touch processes.txt
+  115  ps aux > processes.txt
+  116  cp processes.txt copy.txt
+  117  mkdir kopia
+  118  mv copy.txt kopia/copy.txt
+  119  wc -l
+  120  wc --help
+  121  wc -l processes.txt
+  122  wc -l processes.txt >> processes.txt
+  123  grep --help
+  124  grep -rni /bin  processes.txt
+  125  grep -rni /bin  processes.txt >> processes.txt
+  126  grep -rni /bin  processes.txt >> processes2
+  127  cat processes2
+  128  cat processes2 >> processes.txt
+  129  history
+  130  history | tail
+  131  history | tail --lines=18 > commands.txt
+  132  history | tail --lines=20 > commands.txt
