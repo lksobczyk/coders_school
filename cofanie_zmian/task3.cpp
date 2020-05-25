@@ -1,6 +1,5 @@
 #include <iostream>
 
-// Write your function here
 void printString(const std::string& text, size_t count)
 {
     for (size_t k = 0; k < count; ++k)
@@ -9,7 +8,8 @@ void printString(const std::string& text, size_t count)
     }
 }
 
-int main() {
+int main()
+{
     printString("Hello", 5);
     std::cout << "\n";
 
